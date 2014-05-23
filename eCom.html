@@ -1,0 +1,497 @@
+<html>
+<head style="height:700px !important;width:500px !important;">
+    <title>eComm</title>
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" href="./style/navbar.css" rel="stylesheet">
+    <link type="text/css" href="./style/websiteGridCSS.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./style/example.css">
+    <link rel="stylesheet" type="text/css" href="./style/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/NTTData_footer.css">
+	<link rel="stylesheet" type="text/css" href="./style/demo.css" />
+	<link rel="stylesheet" type="text/css" href="./style/component.css" />
+    <!-- SlidesJS Optional: If you'd like to use this design -->
+    <style>
+        #slides {
+            display: none;
+        }
+
+            #slides .slidesjs-navigation {
+                margin-top: 3px;
+            }
+
+            #slides .slidesjs-previous {
+                margin-right: 5px;
+                float: left;
+            }
+
+            #slides .slidesjs-next {
+                margin-right: 5px;
+                float: left;
+            }
+
+        .slidesjs-pagination {
+            margin: 6px 0 0;
+            float: right;
+            list-style: none;
+        }
+
+            .slidesjs-pagination li {
+                float: left;
+                margin: 0 1px;
+            }
+
+                .slidesjs-pagination li a {
+                    display: block;
+                    width: 13px;
+                    height: 0;
+                    padding-top: 13px;
+                    background-image: url(./images/img/pagination.png);
+                    background-position: 0 0;
+                    float: left;
+                    overflow: hidden;
+                }
+
+                    .slidesjs-pagination li a.active,
+                    .slidesjs-pagination li a:hover.active {
+                        background-position: 0 -13px;
+                    }
+
+                    .slidesjs-pagination li a:hover {
+                        background-position: 0 -26px;
+                    }
+
+        #slides a:link,
+        #slides a:visited {
+            /*color: #333;*/
+        }
+
+        #slides a:hover,
+        #slides a:active {
+            /*color: #9e2020;*/
+        }
+
+        .navbar {
+            overflow: hidden;
+        }
+    </style>
+    <!-- End SlidesJS Optional-->
+    <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+    <style>
+        #slides {
+            display: none;
+        }
+
+        .container {
+            margin: 0 auto;
+        }
+
+        /* For tablets & smart phones */
+        @media (max-width: 767px) {
+            body {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .container {
+                width: auto;
+            }
+        }
+
+        /* For smartphones */
+        @media (max-width: 480px) {
+            .container {
+                width: auto;
+            }
+        }
+
+        /* For smaller displays like laptops */
+        @media (min-width: 768px) and (max-width: 979px) {
+            .container {
+                width: 724px;
+            }
+        }
+
+        /* For larger displays */
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+        }
+    </style>
+    <!-- SlidesJS Required: -->
+    <script type="text/javascript">
+        function onHover() {
+            document.getElementById('nav_your_account_flyout').style.display = "block";
+        }
+        function onHoverOut()
+        {
+            document.getElementById('nav_your_account_flyout').style.display = "none";
+        }
+    </script>
+
+    <table style="width:100%;">
+        <tr>
+            <td><img src="./images/logo_data.gif"></td>
+            <td style="width: 7%;"><a href="" style="font-size: 14px; font-weight:normal; font-family: arial,sans-serif; text-decoration: none; color: #05a;">Today's Deals</a></td>
+            <td style=""><a href="" style="font-size: 14px; font-weight: normal; font-family: arial,sans-serif; text-decoration: none; color: #05a;">Customer Service</a></td>
+            <td style="text-align: right">
+                <img style="height: 50px;position: relative;" src="./images/Purchase_Protection2.jpg">
+            </td>
+            <!--<td style="text-align: right">
+                <font style="font-size: 28px;line-height: 1.2;font-weight: normal;font-family: Arial,sans-serif;text-rendering: optimizeLegibility;">100% Purchase Protection </font>
+            </td>-->
+        </tr>
+        <tr>
+            <td colspan="5" style="border-bottom-style: solid; border-bottom-width: 1px; color: rgb(135, 223, 212);"></td>
+        </tr>
+    </table>
+    <table style="width: 100%; background: rgb(231, 247, 245); border-radius: 1px; font-family: Arial,sans-serif;">
+        <tr>
+            <td style="width:250px;">
+                <a style="position: relative; float: left; top: 1px; display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    overflow: hidden; height: 46px; padding: 0px 0px 0px 10px; margin: 0px 1px; border: 0px; text-decoration: none; cursor: pointer; border-radius: 3px 3px 3px 3px">
+                    <span style="height: 14px; line-height: 20px; font-size: 12px; margin-top: 9px">Shop by</span></br>
+                    <span style="line-height: 15px; font-weight: bold; font-size: 14px; padding-bottom: 5px; visibility: visible;">Department</span>
+                </a>
+            </td>
+            <td style="right: 250px !important; position: relative; width: 350px;" colspan="1" >
+                <label style="font-size:13px; position: relative; display: inline-block; float: left; line-height: 30px;
+                 color: #333; font-weight: bold; padding: 0px 10px 0px 0px; margin-top: 10px;" id="nav-search-label" for="twotabsearchtextbox">Search</label>
+                <form id="nav-searchbar" action="/s/ref=nb_sb_noss" method="get" name="site-search" role="search" accept-charset="utf-8" ,="" style="">
+
+
+                    <div class="nav-submit-button nav-sprite">
+                        <input type="submit" value="Go" class="nav-submit-input" title="Go">
+                    </div>
+
+                    <span id="nav-search-in" class="nav-sprite nav-facade-active nav-facade-active" style="width: auto;">
+                        <span id="nav-search-in-content" data-value="search-alias=aps" style="width: auto; overflow: visible;">
+                            All
+                        </span>
+                        <span class="nav-down-arrow"></span>
+                        <select data-nav-digest="VbBtrqlmUbTgkyNRY66Ircgtsgo" data-nav-selected="0" name="url" id="searchDropdownBox" class="searchSelect" title="Search in" style="top: 3px;">
+                            <option value="search-alias=aps" selected="selected">All Departments</option>
+                            <option value="search-alias=beauty">Clothing &amp; Accessories</option>
+                            <option value="search-alias=stripbooks">Office &amp; Desk</option>
+                            <option value="search-alias=apparel">Sports &amp; Leisure</option>
+                            <option value="search-alias=computers">Tradeshow &amp; Giveaway</option>
+                            <option value="search-alias=electronics">Miscellaneous</option>
+                        </select>
+                    </span>
+
+                    <div class="nav-searchfield-width">
+                        <div id="nav-iss-attach">
+                            <input type="text" id="twotabsearchtextbox" title="Search For" value="" name="field-keywords" autocomplete="off">
+                        </div>
+                    </div>
+                </form>
+
+            </td>
+            <td style="width: 50px;" onmouseover="Javascript: onHover();" onmouseout="Javascript: onHoverOut();">
+                <a style="color:black;" href="" >
+                    <b><span style="font-family:Arial;font-size:11px;">Manage Your </span></b><br />
+                    <b><span style="font-family:Arial;font-size:14px;">Account </span></b>
+                    <img src="./images/arrow.jpg" style="text-align:center" width="11px" height="10px" />
+                </a>
+
+            </td>
+            <td style="width: 50px;">
+                <a href="">
+                    <table>
+                        <tr>
+                            <td><img src="./images/cart.jpg" width="50px" height="40px" /></td>
+                            <td><b><span style="font-size:24px"> 2 </span></b>
+                    </br><span style="font-size:11px"> Items </span></td>
+                        </tr>
+                    </table>
+                    
+                </a>
+            </td>
+            
+</tr>
+    </table>
+</head>
+
+<body style="">
+    <table style="">
+        <tr>
+        <td>
+            <!-- 1-->
+                <div id="nav_your_account_flyout" style="display:none;border-style:solid;border-width:1px;border-radius:3px;font-size: 12px;font-family: arial;width:150px;">
+                    <a href="" style="">Login into your account</a><br>
+                    <a href="">Manage your account</a><br>
+                </div>
+                <div id="nav_flyout_anchor">
+                    <div id="nav_browse_flyout" class="nav-flyout nav-flyout-menu nav-flyout-content nav-flyout nav-flyout-menu nav-locked" style="width: 225px;">
+                        <div id="nav_cats_wrap" class="nav_browse_wrap">
+                            <ul id="nav_cats" class="nav_browse_ul" style="width:400px;">
+                                <li style="font-weight: bold; margin-left: 15px; font-size: 13px !important;">
+                                    <a>Employee Merchandise</a>
+                                    <div style="display: block; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">
+                                        Employee Merchandise &amp; its Accessories
+                                    </div>
+                                </li>
+                                <!-- Sub Elements -->
+                                <ul class="nav_browse_ul nav_browse_cat_ul" style="list-style: none; width:200px;margin-left:-20px;">
+                                    <li class="nav_first nav_taglined nav_subcat_link nav_pop_li">
+                                        <a href="/dp/B007HCFU90/ref=sa_menu_kdpsz" class="nav_a nav_item" style="font-size:12px !important;">Apparel &amp; Accessories <b>(20)</b></a>
+                                        <div style="display: block;padding-bottom:7px; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">New Style of Apparel &amp; Accessories</div>
+                                    </li>
+
+                                    <li class="nav_first nav_taglined nav_subcat_link nav_pop_li">
+                                        <a href="/dp/B007HCFU90/ref=sa_menu_kdpsz" class="nav_a nav_item" style="font-size:12px !important;">Client Souvenir <b>(3)</b></a>
+                                        <div style="display: block; padding-bottom: 7px; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">New Style of Client Souvenir &amp; Accessories</div>
+                                    </li>
+
+                                    <li class="nav_first nav_taglined nav_subcat_link nav_pop_li">
+                                        <a href="/dp/B007HCFU90/ref=sa_menu_kdpsz" class="nav_a nav_item" style="font-size:12px !important;">Electronics & Gadgets <b>(2)</b></a>
+                                        <div style="display: block; padding-bottom: 7px; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">New Style of Electronics & Gadgets</div>
+                                    </li>
+
+                                    <li class="nav_first nav_taglined nav_subcat_link nav_pop_li">
+                                        <a href="/dp/B007HCFU90/ref=sa_menu_kdpsz" class="nav_a nav_item" style="font-size:12px !important;">Home & Lifestyle products <b>(4)</b></a>
+                                        <div style="display: block; padding-bottom: 7px; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">New Style of Home & Lifestyle product's Accessories</div>
+                                    </li>
+
+                                    <li class="nav_first nav_taglined nav_subcat_link nav_pop_li">
+                                        <a href="/dp/B007HCFU90/ref=sa_menu_kdpsz" class="nav_a nav_item" style="font-size:12px !important;">Personal Accessories <b>(1)</b></a>
+                                        <div style="display: block; padding-bottom: 7px; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">New style of Personal Collections</div>
+                                    </li>
+                                    <li class="nav_first nav_taglined nav_subcat_link nav_pop_li">
+                                        <a href="/dp/B007HCFU90/ref=sa_menu_kdpsz" class="nav_a nav_item" style="font-size:12px !important;">Stationery <b>(1)</b></a>
+                                        <div style="display: block; padding-bottom: 7px; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">View Stationery Products</div>
+                                    </li>
+                                    <li class="nav_first nav_taglined nav_subcat_link nav_pop_li">
+                                        <a href="/dp/B007HCFU90/ref=sa_menu_kdpsz" class="nav_a nav_item" style="font-size:12px !important;">Travel Gear <b>(2)</b></a>
+                                        <div style="display: block; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">View Travel Gear Products</div>
+                                    </li>
+                                </ul>
+
+                                <!-- Sub Elements -->
+
+                                <li style="font-weight: bold; margin-left: 15px; font-size: 13px !important;">
+                                    <a>Miscellaneous</a>
+                                    <div style=" display: block; font-size: 11px; line-height: 13px; font-weight: normal; color: #999; white-space: normal">
+                                        Miscellaneous
+                                    </div>
+                                </li>
+                            </ul>
+                            <div id="nav_cat_indicator" class="nav-sprite" style="display: none; top: 340px;"></div>
+                        </div>
+                        <div class="nav-arrow" style="position: absolute; left: 94px;"><div class="nav-arrow-inner"></div></div><div class="nav-arrow" style="position: absolute; left: 94px;"><div class="nav-arrow-inner"></div></div>
+                    </div><div id="nav_your_account_flyout" class="nav-flyout-content nav-flyout nav-flyout-menu" style="position: absolute; top: 52px; left: 267px; display: none;">
+                        <ul class="nav_pop_ul">
+                            <li class="nav_first nav_pop_li"><a href="https://www.amazon.in/gp/css/homepage.html/ref=topnav_ya" class="nav_a">Login/Create Account</a></li>
+                            <li class="nav_pop_li"><a href="https://www.amazon.in/gp/css/order-history/ref=gno_yam_yrdrs" class="nav_a" id="nav_prefetch_yourorders">Account Information</a></li>
+                            <li class="nav_pop_li"><a href="/gp/registry/wishlist/ref=gno_listpop_wi?ie=UTF8&amp;requiresSignIn=1" class="nav_a">Your Orders</a></li>
+                            <li class="nav_last nav_pop_li nav_divider_before">
+                                <a href="/gp/flex/sign-out.html/ref=gno_signout?ie=UTF8&amp;action=sign-out&amp;path=%2Fgp%2Fyourstore%2Fhome&amp;signIn=1&amp;useRedirectOnSuccess=1">Sign Out</a>
+                            </li>
+                        </ul>   <!--[if IE ]>      <div class='nav-ie-min-width' style='width: 160px; height: 1px;'></div>    <![endif]-->  <div class="nav-arrow" style="position: absolute; left: 108px;"><div class="nav-arrow-inner"></div></div>
+                    </div><div id="nav_cart_flyout" class="nav-flyout-content nav-flyout nav-flyout-menu nav-ajax-error" style="position: absolute; top: 52px; left: 398px; display: none;">
+                        <ul class="nav_dynamic"></ul>
+                        <div class="nav-ajax-message"></div>
+                        <div class="nav-dynamic-empty">
+                            <p class="nav_p nav-bold nav-cart-empty"> Your Shopping Cart is empty.</p>
+                            <p class="nav_p "> Give it purposeâ€”fill it with books, movies, mobiles, cameras, toys and fashion jewellery.</p>
+
+                        </div>
+                        <div class="nav-ajax-error-msg">
+                            <p class="nav_p nav-bold"> There's a problem previewing your cart right now.</p>
+                            <p class="nav_p "> Check your Internet connection and <a href="/gp/cart/view.html/ref=gno_flyout_viewcart?ie=UTF8&amp;hasWorkingJavascript=1" class="nav_a">go to your cart</a>, or <a href="javascript:void(0);" class="nav_a nav-try-again">try again</a>.</p>
+                        </div>
+
+                        <a href="/gp/cart/view.html/ref=gno_flyout_viewcart?ie=UTF8&amp;hasWorkingJavascript=1" id="nav-cart-menu-button" class="nav-action-button nav-sprite">
+                            <span class="nav-action-inner nav-sprite">
+                                View Cart
+
+                                <span id="nav-cart-menu-button-count">
+                                    <span id="nav-cart-zero">(<span class="nav-cart-count">0</span> items)</span>
+                                    <span id="nav-cart-one" style="display: none;">(<span class="nav-cart-count">0</span> item)</span>
+                                    <span id="nav-cart-many" style="display: none;">(<span class="nav-cart-count">0</span> items)</span>
+                                </span>
+                            </span>
+                        </a>
+                        <div class="nav-arrow" style="position: absolute; left: 84px;"><div class="nav-arrow-inner"></div></div>
+                    </div>
+                </div>
+
+
+
+
+            </td>
+        
+            <!-- 2-->
+
+            <td>
+
+                <table style="right:1130px; position: relative; ">
+                    <tr>
+                        <td style="left:100px;position:relative">
+                            <img src="./images/gurantee.gif" style="width:400px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="">
+                            <font style="font-size: 10px; color: rgb(15, 182, 155)">
+                                Here you will find creative merchandise branded with the NTT DATA logo that adheres to approved NTT DATA brand standards.
+                                </br> <span style="padding: 0 80px;"> products found in the store will help to promote a consistent image and build brand awareness.</span>
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-width: 20px; border-radius: 1px;">
+                            <table>
+                                <tr>
+                                    <td style="">
+
+                                        <div id="tabs" class="tabs" style="width: 850px; height: 350px; text-align: left; left: -100px;">
+                                            <nav>
+                                                <ul style="width: 500px; border-width: 20px; border-radius: 1px;">
+                                                    <li><a href="#section-1" style="width:150px;"><img src="./images/New.jpg" width="100px" height="50px" /></a></li>
+                                                    <li><a href="#section-2" style="width:150px;"><img src="./images/Shop1.jpg" width="100px" height="50px"></a></li>
+                                                    <li><a href="#section-3" style="width:150px;"><img src="./images/More_Tab.jpg" width="100px" height="50px"></a></li>
+                                                </ul>
+                                            </nav>
+                                            <div class="content">
+                                                <section id="section-1">
+                                                    <div id="slides" style="">
+                                                        <img src="./images/Products/slide1.png" alt="">
+                                                        <img src="./images/Products/slide2.png" alt="">
+                                                        <img src="./images/Products/slide3.png" alt="">
+                                                        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+                                                        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                                                    </div>
+                                                </section>
+                                                <section id="section-2">
+                                                    <div id="slides1" style="height:300px !important;width:760px !important;">
+                                                        <img src="./images/More/S1.jpg" alt="">
+                                                        <img src="./images/More/S2.jpg" alt="">
+                                                        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+                                                        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                                                    </div>
+                                                </section>
+                                                <section id="section-3">
+                                                    <div id="slides3" style="height:300px !important;width:760px !important;">
+                                                        <img src="./images/More/S1.jpg" alt="">
+                                                        <img src="./images/More/S2.jpg" alt="">
+                                                        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+                                                        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </td>
+
+
+            <td>
+
+                <table style="position: relative; left: -1150px;width:350px;">
+                    <tr style="height:30px;"></tr>
+                    <tr>
+                        <td><a href=""><img style="width:68%;" src="./images/Tracking.png" /></a></td>
+                    </tr>
+                    <tr style="height:15px;"></tr>
+                    <tr>
+                        <td><a href=""><img style="width:68%;" src="./images/Feedback.jpg" /></a></td>
+                    </tr>
+                    <tr style="height:15px;"></tr>
+                    <tr>
+                        <td><a href=""><img style="width:68%;height:75px;" src="./images/FAQs.jpg" /></a></td>
+                    </tr>
+                    <tr style="height:15px;"></tr>
+                    <tr>
+                        <td><a href=""><img style="width:68%;height:65%;" src="./images/ContactUs.jpg" /></a></td>
+                    </tr>
+                </table>
+
+
+
+            </td>
+            <!-- 3-->
+            <!-- 4-->
+
+            <!-- 5-->
+        
+        
+        </tr>
+        <tr>
+            <td style="">
+
+                <div class="footer" style="background: url('./images/footer/footerBG.jpg') bottom center repeat-x; position: relative; width: 1565px !important;top:75px; ">
+
+                    <div class="footerMain" style=" margin: 0 auto; font-size: 10px; color: #333; clear: both; border: 0 solid #bfcba6; min-height: 100px;">
+                        <div class="footer2">
+                            <b class="footerTitle">Social Media</b><br>
+                            <a href="https://www.facebook.com/NTTDATAAmericas" target="_blank"><img src="./images/footer/facebook.png" alt="Facebook" border="0"></a>
+                            <a href="http://twitter.com/#!/NTTDATAAmericas" target="_blank"><img src="./images/footer/twitter.png" alt="Twitter" border="0"></a>
+                            <a href="http://www.linkedin.com/company/ntt-data-americas" target="_blank"><img src="./images/footer/linkedin.png" alt="Linkedin" border="0"></a>
+                        </div>
+                        <div class="footer3">
+                            <b class="footerTitle">About Us</b><br>
+                            NTT DATA is a Global IT Innovator delivering technology-enabled services and solutions to clients around the world. The company provides consulting, managed services, projects, outsourcing, and cloud-based solutions to mid-sized and large enterprises in all major industries.
+                        </div>
+                        <div class="footer4">
+                        </div>
+                        <div class="footer5">
+                            <a href="/"><img src="./images/footer/Logo.png" alt="Your Logo" border="0"></a>
+                        </div>
+                        <div class="bFooter">
+                            <p>
+                                © NTT DATA - All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </td>
+        </tr>
+    </table>
+      
+    
+
+		<script src="./script/cbpFWTabs.js"></script>
+		<script>
+			new CBPFWTabs( document.getElementById( 'tabs' ) );
+		</script>
+		   
+
+    <script src="./Script/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./Script/js/jquery.slides.min.js"></script>
+
+
+    <script>
+        $(function () {
+            $('#slides').slidesjs({
+                width: 940,
+                height: 228,
+                navigation: true
+            });
+        });
+        $(function () {
+            $('#slides1').slidesjs({
+                width: 940,
+                height: 228,
+                navigation: true
+            });
+        });
+        $(function () {
+            $('#slides3').slidesjs({
+                width: 940,
+                height: 228,
+                navigation: true
+            });
+        });
+    </script>
+</body>
+</html>

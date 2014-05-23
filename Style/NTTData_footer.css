@@ -1,0 +1,35 @@
+/* Footer */
+.footer {
+	bottom: 0px;
+	padding: 0;
+	display: block;
+	background: url("/PublishingImages/footerBG.jpg") bottom center repeat-x;
+	margin-top: 15px;
+}
+.footerMain{
+	width: 1024px;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #333;
+	clear: both;
+	border: 0 solid #bfcba6;
+	min-height: 100px;
+}
+.footerMain p{margin:0; padding:5px 10px;}
+.footerMain a{display:inline; padding:0; color:#666; text-decoration:none;}
+.footerMain a:hover{color:#333;}
+
+.footer1 {width:130px; display:block; float:left; margin:5px 5px 5px 10px; color:#666;}
+.footer2 {width:130px; display:block; float:left; margin:5px; color:#666;}
+.footer2 img {padding:3px 10px 0 0;}
+.footer3 {width:320px; display:block; float:left; margin:5px 15px 5px 30px; color:#666; text-align:left;}
+.footer4 {width:150px; display:block; float:left; margin:5px 10px 0px 30px; color:#666; text-align:left;}
+.footer5 {width:200px; display:block; float:right; margin:5px 10px 0px 0px; color:#666; text-align:right;}
+.footerTitle {font-weight:bold; font-size:14px; line-height:24px;}
+
+
+/* Bottom Footer */
+.bFooter{font-size:10px; color:#666; clear:both; height:25px;}
+.bFooter p{margin:0; padding:5px 10px;}
+.bFooter a{display:inline; padding:0; color:#666;}
+
